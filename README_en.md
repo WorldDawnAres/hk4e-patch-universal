@@ -2,41 +2,41 @@
 
 **[English](README_en.md) | [简体中文](README.md)**
 
->原神加密补丁（针对5.0以上版本进行了修改）
+Genshin Impact encryption patch (Modded for version > 5.0)
 
-[点击此处下载原神服务端-5.3.0](https://github.com/Kei-Luna/LunaGC_5.3.0)
+[Click here to download the Genshin Impact server -5.3.0](https://github.com/Kei-Luna/LunaGC_5.3.0)
 
-[点击此处下载原神服务端资源包-5.3.0](https://github.com/pmagixc/5.3-res)
+[Click here to download the Genshin Impact server resource package -5.3.0](https://github.com/pmagixc/5.3-res)
 
-## 使用方法
+## Usage
 
-### 方法1
+### Method 1
 
-- 1.git本仓库到本地
-- 2.根据下载的服务端运行端口修改相应src/modules/http.rs文件中的服务端运行地址和游戏运行地址
+- 1.Git repository to local
+- 2.Modify the server running address and game running address in the corresponding src/modules/http.rs file based on the downloaded server running port
 
-**注意：当前补丁指定服务器运行ip端口为8088;游戏运行ip端口为22101，可根据当前代码的端口设置修改相应的ip端口**
+**Attention: The current patch specifies that the server should run on IP port 8088; The game runs on IP port 22101, and the corresponding IP port can be modified according to the port settings of the current code**
 
 ```bash
 String::from("http://127.0.0.1:8088")
 ```
 
-- 3.下载rust环境，并安装`cargo`，[rust下载地址](https://www.rust-lang.org/tools/install)
-- 4.在`hk4e-patch-universal`文件夹下运行start code.bat编译补丁
-- 5.将编译好的补丁文件夹复制到原神客户端文件根目录下
+- 3.Download the Rust environment and install 'cargo', [Rust download address](https://www.rust-lang.org/tools/install)
+- 4.Run start code.bat to compile the patch in the 'hk4e-patch universal' folder
+- 5.Copy the compiled patch folder to the root directory of the Genshin Impact client file
 
-### 方法2
+### Method 2
 
-[点击此处下载补丁](https://github.com/WorldDawnAres/hk4e-patch-universal/releases)
+[Click here to download patch](https://github.com/WorldDawnAres/hk4e-patch-universal/releases)
 
-- 1.下载补丁文件夹
-- 2.将补丁文件夹复制到原神客户端文件根目录下
+- 1.Download patch folder
+- 2.Copy the patch folder to the root directory of the Genshin Impact client file
 
-## 原神客户端
+## Genshin Impact client
 
-- 下面为5.3.0完整版下载链接
+- Below is the download link for the full version 5.3.0
 
-| 下载链接 | 包大小 | 解压后大小 | MD5 校验 |
+| Download link | Package size | Decompressed package size | MD5 checksum |
 | --- | --- | --- | --- |
 | [GenshinImpact_5.3.0.zip.001](https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/GenshinImpact_5.3.0.zip.001) | 10.0 GB | 20.0 GB | d7ea7d49334e03e590db3f047cd9ea88 |
 | [GenshinImpact_5.3.0.zip.002](https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/GenshinImpact_5.3.0.zip.002) | 10.0 GB | 20.0 GB | b4178034c1d09e889e43fd76b3fb4d3c |
@@ -51,9 +51,9 @@ String::from("http://127.0.0.1:8088")
 | [Audio_Korean_5.3.0.zip](https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/Audio_Korean_5.3.0.zip) | 13.99 GB | 28.0 GB | 6356a494c7cce397bdbb1213aa6e7298 |
 | [Audio_Japanese_5.3.0.zip](https://autopatchhk.yuanshen.com/client_app/download/pc_zip/20241219110745_1vT3FzXdDTDFZFrL/Audio_Japanese_5.3.0.zip) | 18.43 GB | 36.88 GB | f2b1c1f217dafbcdf27aeece987256b7 |
 
-- 如果之前有客户端5.2.0可获取5.2.0->5.3.0的升级包：
+- Or get the 5.2.0 -> 5.3.0 hdiffs:
 
-| 下载链接 | 包大小 | 解压后大小 | MD5 校验 |
+| Download link | Package size | Decompressed package size | MD5 checksum |
 | --- | --- | --- | --- |
 | [game_5.2.0_5.3.0_hdiff_cixFUHQZyAJuOKIN.zip](https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/game_5.2.0_5.3.0_hdiff_cixFUHQZyAJuOKIN.zip) | 17.16 GB | 35.14 GB | 46b32c38dbb348a172df8352074da5a1 |
 | [audio_ko-kr_5.2.0_5.3.0_hdiff_oyddjWZZfxEwaTYM.zip](https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/audio_ko-kr_5.2.0_5.3.0_hdiff_oyddjWZZfxEwaTYM.zip) | 0.68 GB | 1.47 GB | fcee09acf85cdd2dd1d30bdea69c9065 |
